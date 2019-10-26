@@ -195,10 +195,11 @@ h6 {
 }
 
 #intro .intro-content h2 {
-  color: #0c2e8a;
-  margin-bottom: 30px;
+  color: white;
+  margin-bottom: 276px;
   font-size: 64px;
   font-weight: 700;
+  text-shadow:4px 4px 9px #000000;
 }
 
 #intro .intro-content h2 span {
@@ -1198,3 +1199,51 @@ body.mobile-nav-active #mobile-nav-toggle {
     width: -webkit-fill-available;
   }
 }
+.intro-content{
+  background: url('../img/intro-carousel/bg.png');
+  background-size: cover;
+  /* <------ */
+  background-repeat: no-repeat;
+  background-position: center center;
+  position: relative;
+  height: inherit;
+}
+
+/* Lithium rolling
+.animated {
+  
+  background-repeat: no-repeat;
+  background-position: right center;
+  padding-top:95px;
+  margin-bottom:60px;
+  -webkit-animation-duration: 2s;
+  animation-duration: 2s;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+}
+
+@-webkit-keyframes rollIn {
+  0% { 
+     opacity: 0; 
+     -webkit-transform: translateX(-100%) rotate(-360deg); 
+  }
+  100% { 
+     opacity: 1; 
+     -webkit-transform: translateX(0px) rotate(0deg); 
+  }
+}
+
+@keyframes rollIn {
+  0% { 
+     opacity: 0; 
+     transform: translateX(-100%) rotate(-360deg); 
+  }
+  100% { 
+     opacity: 1; 
+     transform: translateX(0px) rotate(0deg); 
+  }
+}
+.rollIn {
+  -webkit-animation-name: rollIn;
+  animation-name: rollIn;
+} */
