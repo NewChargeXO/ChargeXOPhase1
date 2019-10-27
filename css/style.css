@@ -743,7 +743,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 #portfolio .portfolio-item img {
   transition: all ease-in-out 0.4s;
-  width: 100%;
+  
 }
 
 #portfolio .portfolio-item:hover img {
@@ -1251,4 +1251,5 @@ body.mobile-nav-active #mobile-nav-toggle {
   font-family: serif;
     color: brown;
     font-weight: bold;
+    text-align: center;
 }
